@@ -1,0 +1,3700 @@
+{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 0,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": []
+    }
+}{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 0,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": []
+    }
+}{
+    "took": 1,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 0,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": []
+    }
+}{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 0,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": []
+    }
+}{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 0,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": []
+    }
+}{
+    "took": 3,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 10000,
+            "relation": "gte"
+        },
+        "max_score": 1.0,
+        "hits": [
+            {
+                "_index": "rule_ms_windows-2024.08.31",
+                "_type": "_doc",
+                "_id": "D0FCDJEBMN6O3uGrePog",
+                "_score": 1.0,
+                "_source": {
+                    "vendorERId": 15314615,
+                    "tags": [
+                        "beats_input_codec_plain_applied",
+                        "_grokparsefailure",
+                        "ipexist",
+                        "src_private",
+                        "_jdbcstreamingdefaultsused"
+                    ],
+                    "eventTime": "2024-08-01T04:47:24.849Z",
+                    "vendorEId": "5156",
+                    "vendorEName": "Filtering Platform Connection",
+                    "log": {},
+                    "cs3": "44",
+                    "srcPort": "5353",
+                    "deviceHost": "DESKTOP-BG6UUMT",
+                    "srcServiceAccount": "false",
+                    "processId": 4,
+                    "cs2": "75032",
+                    "ecs": {
+                        "version": "1.12.0"
+                    },
+                    "cs3Label": "LayerRTID",
+                    "destPort": "5353",
+                    "packetDirection": "Inbound",
+                    "srcioc": [
+                        {}
+                    ],
+                    "vendorESubCat": "Microsoft-Windows-Security-Auditing",
+                    "deviceProduct": "Windows",
+                    "destioc": [
+                        {}
+                    ],
+                    "customerId": "zs",
+                    "assetInfo": [
+                        {}
+                    ],
+                    "deviceAudit": [
+                        "Audit Success"
+                    ],
+                    "message": "The Windows Filtering Platform has permitted a connection.\n\nApplication Information:\n\tProcess ID:\t\t1316\n\tApplication Name:\t\\device\\harddiskvolume3\\windows\\system32\\svchost.exe\n\nNetwork Information:\n\tDirection:\t\tInbound\n\tSource Address:\t\t192.168.1.42\n\tSource Port:\t\t5353\n\tDestination Address:\t224.0.0.251\n\tDestination Port:\t\t5353\n\tProtocol:\t\t17\n\nFilter Information:\n\tFilter Run-Time ID:\t75032\n\tLayer Name:\t\tReceive/Accept\n\tLayer Run-Time ID:\t44",
+                    "cs2Label": "FilterRTID",
+                    "layerName": "Receive/Accept",
+                    "cs1Label": "Application",
+                    "destIp": "224.0.0.251",
+                    "destinfo": [
+                        {}
+                    ],
+                    "srcIp": "192.168.1.42",
+                    "deviceName": "DESKTOP-BG6UUMT.zeronsec.loc",
+                    "@timestamp": "2024-08-01T04:47:23.554Z",
+                    "deviceOs": "Windows 10 Pro",
+                    "deviceModule": "Security",
+                    "cs1": "\\device\\harddiskvolume3\\windows\\system32\\svchost.exe",
+                    "@version": "1",
+                    "deviceId": "03576bbf-403b-4bd9-b234-8b928663ca05",
+                    "protocol": "Internet Control Message Protocol7",
+                    "eventTask": "Filtering Platform Connection",
+                    "vendorEOutcome": "success",
+                    "deviceOpCode": "Info",
+                    "deviceIp": "192.168.1.40",
+                    "deviceMac": "00:0c:29:a5:06:63",
+                    "destServiceAccount": "false",
+                    "logLevel": "information",
+                    "deviceVendor": "Microsoft",
+                    "srcinfo": [
+                        {}
+                    ]
+                }
+            },
+            {
+                "_index": "rule_ms_windows-2024.08.31",
+                "_type": "_doc",
+                "_id": "EEFCDJEBMN6O3uGrePog",
+                "_score": 1.0,
+                "_source": {
+                    "vendorERId": 15314616,
+                    "tags": [
+                        "beats_input_codec_plain_applied",
+                        "_grokparsefailure",
+                        "ipexist",
+                        "src_private",
+                        "_jdbcstreamingdefaultsused"
+                    ],
+                    "eventTime": "2024-08-01T04:47:24.849Z",
+                    "vendorEId": "5156",
+                    "vendorEName": "Filtering Platform Connection",
+                    "log": {},
+                    "cs3": "44",
+                    "srcPort": "52987",
+                    "deviceHost": "DESKTOP-BG6UUMT",
+                    "srcServiceAccount": "false",
+                    "processId": 4,
+                    "cs2": "75032",
+                    "ecs": {
+                        "version": "1.12.0"
+                    },
+                    "cs3Label": "LayerRTID",
+                    "destPort": "1900",
+                    "packetDirection": "Inbound",
+                    "srcioc": [
+                        {}
+                    ],
+                    "vendorESubCat": "Microsoft-Windows-Security-Auditing",
+                    "deviceProduct": "Windows",
+                    "destioc": [
+                        {}
+                    ],
+                    "customerId": "zs",
+                    "assetInfo": [
+                        {}
+                    ],
+                    "deviceAudit": [
+                        "Audit Success"
+                    ],
+                    "message": "The Windows Filtering Platform has permitted a connection.\n\nApplication Information:\n\tProcess ID:\t\t3772\n\tApplication Name:\t\\device\\harddiskvolume3\\windows\\system32\\svchost.exe\n\nNetwork Information:\n\tDirection:\t\tInbound\n\tSource Address:\t\t192.168.1.47\n\tSource Port:\t\t52987\n\tDestination Address:\t239.255.255.250\n\tDestination Port:\t\t1900\n\tProtocol:\t\t17\n\nFilter Information:\n\tFilter Run-Time ID:\t75032\n\tLayer Name:\t\tReceive/Accept\n\tLayer Run-Time ID:\t44",
+                    "cs2Label": "FilterRTID",
+                    "layerName": "Receive/Accept",
+                    "cs1Label": "Application",
+                    "destIp": "239.255.255.250",
+                    "destinfo": [
+                        {}
+                    ],
+                    "srcIp": "192.168.1.47",
+                    "deviceName": "DESKTOP-BG6UUMT.zeronsec.loc",
+                    "@timestamp": "2024-08-01T04:47:24.066Z",
+                    "deviceOs": "Windows 10 Pro",
+                    "deviceModule": "Security",
+                    "cs1": "\\device\\harddiskvolume3\\windows\\system32\\svchost.exe",
+                    "@version": "1",
+                    "deviceId": "03576bbf-403b-4bd9-b234-8b928663ca05",
+                    "protocol": "Internet Control Message Protocol7",
+                    "eventTask": "Filtering Platform Connection",
+                    "vendorEOutcome": "success",
+                    "deviceOpCode": "Info",
+                    "deviceIp": "192.168.1.40",
+                    "deviceMac": "00:0c:29:a5:06:63",
+                    "destServiceAccount": "false",
+                    "logLevel": "information",
+                    "deviceVendor": "Microsoft",
+                    "srcinfo": [
+                        {}
+                    ]
+                }
+            },
+            {
+                "_index": "rule_ms_windows-2024.08.31",
+                "_type": "_doc",
+                "_id": "jN9CDJEBGodUsTw9e1Fp",
+                "_score": 1.0,
+                "_source": {
+                    "tags": [
+                        "beats_input_raw_event",
+                        "_grokparsefailure"
+                    ],
+                    "deviceLocation": "Mumbai",
+                    "vendorEName": [
+                        "updated"
+                    ],
+                    "srcServiceAccount": "false",
+                    "deviceHost": "adserver",
+                    "deviceName": "adserver",
+                    "@timestamp": "2024-08-01T04:45:30.144Z",
+                    "deviceIpv6": "fe80::713d:2b12:ed89:2052",
+                    "deviceOs": "Windows Server 2016 Standard",
+                    "deviceModule": "file_integrity",
+                    "ecs": {
+                        "version": "1.5.0"
+                    },
+                    "@version": "1",
+                    "deviceId": "b906e501-b8f3-44a5-803b-8269ea45be70",
+                    "service": {
+                        "type": "file_integrity"
+                    },
+                    "deviceProduct": "Windows",
+                    "destServiceAccount": "false",
+                    "deviceIp": "192.168.1.221",
+                    "deviceMac": "00:0c:29:bb:fc:02",
+                    "customerId": "zs",
+                    "assetInfo": [
+                        {
+                            "assetHostname": "WSADServer01",
+                            "assetZone": "Private",
+                            "assetOS": "Windows Server 2016",
+                            "assetLocation": "Mumbai",
+                            "assetMac": "00-0c-29-27-08-68",
+                            "assetCriticality": "High",
+                            "assetVlan": "private",
+                            "assetPort1": "636",
+                            "assetOwner": "IT Team",
+                            "assetType": "Server",
+                            "assetPort": "3389",
+                            "assetPort2": null,
+                            "assetIP": "192.168.1.221",
+                            "assetRole": "ADServer"
+                        }
+                    ],
+                    "vendorECat": [
+                        "file"
+                    ],
+                    "vendorEType": [
+                        "change"
+                    ],
+                    "deviceVendor": "Microsoft",
+                    "hash": {
+                        "sha1": "1f627a14ab6435da8bc08acdcd9805ae49380b85"
+                    }
+                }
+            },
+            {
+                "_index": "rule_ms_windows-2024.08.31",
+                "_type": "_doc",
+                "_id": "9C1CDJEBDqnoGKN7gGih",
+                "_score": 1.0,
+                "_source": {
+                    "vendorERId": 15314618,
+                    "tags": [
+                        "beats_input_codec_plain_applied",
+                        "_grokparsefailure",
+                        "ipexist",
+                        "src_private",
+                        "_jdbcstreamingdefaultsused"
+                    ],
+                    "eventTime": "2024-08-01T04:47:26.874Z",
+                    "vendorEId": "5156",
+                    "vendorEName": "Filtering Platform Connection",
+                    "log": {},
+                    "cs3": "44",
+                    "srcPort": "57193",
+                    "deviceHost": "DESKTOP-BG6UUMT",
+                    "srcServiceAccount": "false",
+                    "processId": 4,
+                    "cs2": "75032",
+                    "ecs": {
+                        "version": "1.12.0"
+                    },
+                    "cs3Label": "LayerRTID",
+                    "destPort": "1900",
+                    "packetDirection": "Inbound",
+                    "srcioc": [
+                        {}
+                    ],
+                    "vendorESubCat": "Microsoft-Windows-Security-Auditing",
+                    "deviceProduct": "Windows",
+                    "destioc": [
+                        {}
+                    ],
+                    "customerId": "zs",
+                    "assetInfo": [
+                        {}
+                    ],
+                    "deviceAudit": [
+                        "Audit Success"
+                    ],
+                    "message": "The Windows Filtering Platform has permitted a connection.\n\nApplication Information:\n\tProcess ID:\t\t3772\n\tApplication Name:\t\\device\\harddiskvolume3\\windows\\system32\\svchost.exe\n\nNetwork Information:\n\tDirection:\t\tInbound\n\tSource Address:\t\t192.168.1.47\n\tSource Port:\t\t57193\n\tDestination Address:\t239.255.255.250\n\tDestination Port:\t\t1900\n\tProtocol:\t\t17\n\nFilter Information:\n\tFilter Run-Time ID:\t75032\n\tLayer Name:\t\tReceive/Accept\n\tLayer Run-Time ID:\t44",
+                    "cs2Label": "FilterRTID",
+                    "layerName": "Receive/Accept",
+                    "cs1Label": "Application",
+                    "destIp": "239.255.255.250",
+                    "destinfo": [
+                        {}
+                    ],
+                    "srcIp": "192.168.1.47",
+                    "deviceName": "DESKTOP-BG6UUMT.zeronsec.loc",
+                    "@timestamp": "2024-08-01T04:47:26.024Z",
+                    "deviceOs": "Windows 10 Pro",
+                    "deviceModule": "Security",
+                    "cs1": "\\device\\harddiskvolume3\\windows\\system32\\svchost.exe",
+                    "@version": "1",
+                    "deviceId": "03576bbf-403b-4bd9-b234-8b928663ca05",
+                    "protocol": "Internet Control Message Protocol7",
+                    "eventTask": "Filtering Platform Connection",
+                    "vendorEOutcome": "success",
+                    "deviceOpCode": "Info",
+                    "deviceIp": "192.168.1.40",
+                    "deviceMac": "00:0c:29:a5:06:63",
+                    "destServiceAccount": "false",
+                    "logLevel": "information",
+                    "deviceVendor": "Microsoft",
+                    "srcinfo": [
+                        {}
+                    ]
+                }
+            },
+            {
+                "_index": "rule_ms_windows-2024.08.31",
+                "_type": "_doc",
+                "_id": "k99CDJEBGodUsTw9f1HX",
+                "_score": 1.0,
+                "_source": {
+                    "vendorERId": 15314617,
+                    "tags": [
+                        "beats_input_codec_plain_applied",
+                        "_grokparsefailure",
+                        "ipexist",
+                        "src_private",
+                        "_jdbcstreamingdefaultsused"
+                    ],
+                    "eventTime": "2024-08-01T04:47:26.874Z",
+                    "vendorEId": "5156",
+                    "vendorEName": "Filtering Platform Connection",
+                    "log": {},
+                    "cs3": "44",
+                    "srcPort": "52987",
+                    "deviceHost": "DESKTOP-BG6UUMT",
+                    "srcServiceAccount": "false",
+                    "processId": 4,
+                    "cs2": "75032",
+                    "ecs": {
+                        "version": "1.12.0"
+                    },
+                    "cs3Label": "LayerRTID",
+                    "destPort": "1900",
+                    "packetDirection": "Inbound",
+                    "srcioc": [
+                        {}
+                    ],
+                    "vendorESubCat": "Microsoft-Windows-Security-Auditing",
+                    "deviceProduct": "Windows",
+                    "destioc": [
+                        {}
+                    ],
+                    "customerId": "zs",
+                    "assetInfo": [
+                        {}
+                    ],
+                    "deviceAudit": [
+                        "Audit Success"
+                    ],
+                    "message": "The Windows Filtering Platform has permitted a connection.\n\nApplication Information:\n\tProcess ID:\t\t3772\n\tApplication Name:\t\\device\\harddiskvolume3\\windows\\system32\\svchost.exe\n\nNetwork Information:\n\tDirection:\t\tInbound\n\tSource Address:\t\t192.168.1.47\n\tSource Port:\t\t52987\n\tDestination Address:\t239.255.255.250\n\tDestination Port:\t\t1900\n\tProtocol:\t\t17\n\nFilter Information:\n\tFilter Run-Time ID:\t75032\n\tLayer Name:\t\tReceive/Accept\n\tLayer Run-Time ID:\t44",
+                    "cs2Label": "FilterRTID",
+                    "layerName": "Receive/Accept",
+                    "cs1Label": "Application",
+                    "destIp": "239.255.255.250",
+                    "destinfo": [
+                        {}
+                    ],
+                    "srcIp": "192.168.1.47",
+                    "deviceName": "DESKTOP-BG6UUMT.zeronsec.loc",
+                    "@timestamp": "2024-08-01T04:47:25.080Z",
+                    "deviceOs": "Windows 10 Pro",
+                    "deviceModule": "Security",
+                    "cs1": "\\device\\harddiskvolume3\\windows\\system32\\svchost.exe",
+                    "@version": "1",
+                    "deviceId": "03576bbf-403b-4bd9-b234-8b928663ca05",
+                    "protocol": "Internet Control Message Protocol7",
+                    "eventTask": "Filtering Platform Connection",
+                    "vendorEOutcome": "success",
+                    "deviceOpCode": "Info",
+                    "deviceIp": "192.168.1.40",
+                    "deviceMac": "00:0c:29:a5:06:63",
+                    "destServiceAccount": "false",
+                    "logLevel": "information",
+                    "deviceVendor": "Microsoft",
+                    "srcinfo": [
+                        {}
+                    ]
+                }
+            },
+            {
+                "_index": "rule_ms_windows-2024.08.31",
+                "_type": "_doc",
+                "_id": "9S1CDJEBDqnoGKN7gmht",
+                "_score": 1.0,
+                "_source": {
+                    "deviceAction": "SUCCESS",
+                    "vendorERId": 7357263,
+                    "tags": [
+                        "beats_input_codec_plain_applied",
+                        "_grokparsefailure"
+                    ],
+                    "destUserId": "S-1-5-18",
+                    "network": {},
+                    "eventTime": "2024-08-01T04:45:31.892Z",
+                    "srcUser": "SYSTEM",
+                    "vendorEId": "22",
+                    "vendorEName": "Dns query (rule: DnsQuery)",
+                    "log": {},
+                    "cs3": "adserver",
+                    "deviceHost": "adserver",
+                    "srcServiceAccount": "false",
+                    "processId": 2980,
+                    "destUser": "SYSTEM",
+                    "deviceIpv6": "fe80::713d:2b12:ed89:2052",
+                    "cs2": "zeronsec.loc",
+                    "ecs": {
+                        "version": "1.12.0"
+                    },
+                    "cs3Label": "Subdomain",
+                    "destDomain": "AUTHORITY",
+                    "destProcess": "<unknown process>",
+                    "vendorESubCat": "Microsoft-Windows-Sysmon",
+                    "deviceProduct": "Windows",
+                    "cs4Label": "TLDomain",
+                    "customerId": "zs",
+                    "assetInfo": [
+                        {
+                            "assetHostname": "WSADServer01",
+                            "assetZone": "Private",
+                            "assetOS": "Windows Server 2016",
+                            "assetLocation": "Mumbai",
+                            "assetMac": "00-0c-29-27-08-68",
+                            "assetCriticality": "High",
+                            "assetVlan": "private",
+                            "assetPort1": "636",
+                            "assetOwner": "IT Team",
+                            "assetType": "Server",
+                            "assetPort": "3389",
+                            "assetPort2": null,
+                            "assetIP": "192.168.1.221",
+                            "assetRole": "ADServer"
+                        }
+                    ],
+                    "destProcessId": 96444,
+                    "message": "Dns query:\nRuleName: -\nUtcTime: 2024-08-01 04:45:38.134\nProcessGuid: {B906E501-12E7-66AB-6959-000000007000}\nProcessId: 96444\nQueryName: adserver.zeronsec.loc\nQueryStatus: 0\nQueryResults: ::1;::ffff:169.254.32.82;::ffff:192.168.1.221;\nImage: <unknown process>\nUser: NT AUTHORITY\\SYSTEM",
+                    "cs2Label": "RegisteredDomain",
+                    "srcDomain": "NT AUTHORITY",
+                    "cs1Label": "DNSName",
+                    "cs6Label": "ProcessGuid",
+                    "cs6": "{B906E501-12E7-66AB-6959-000000007000}",
+                    "deviceLocation": "Mumbai",
+                    "deviceName": "adserver.zeronsec.loc",
+                    "@timestamp": "2024-08-01T04:45:38.134Z",
+                    "deviceOs": "Windows Server 2016 Standard",
+                    "deviceModule": "Microsoft-Windows-Sysmon/Operational",
+                    "cs1": "adserver.zeronsec.loc",
+                    "@version": "1",
+                    "deviceId": "b906e501-b8f3-44a5-803b-8269ea45be70",
+                    "protocol": "dns",
+                    "eventTask": "Dns query (rule: DnsQuery)",
+                    "deviceOpCode": "Info",
+                    "destServiceAccount": "false",
+                    "deviceIp": "192.168.1.221",
+                    "deviceMac": "00:0c:29:bb:fc:02",
+                    "sysmon": {
+                        "dns": {}
+                    },
+                    "vendorECat": [
+                        "network"
+                    ],
+                    "logLevel": "information",
+                    "dns": {
+                        "answers": [
+                            {
+                                "data": "::1",
+                                "type": "AAAA"
+                            },
+                            {
+                                "data": "169.254.32.82",
+                                "type": "A"
+                            },
+                            {
+                                "data": "192.168.1.221",
+                                "type": "A"
+                            }
+                        ],
+                        "question": {},
+                        "resolved_ip": [
+                            "::1",
+                            "169.254.32.82",
+                            "192.168.1.221"
+                        ]
+                    },
+                    "destFile": "<unknown process>",
+                    "vendorEType": [
+                        "connection",
+                        "protocol",
+                        "info"
+                    ],
+                    "cs4": "loc",
+                    "deviceVendor": "Microsoft"
+                }
+            },
+            {
+                "_index": "rule_ms_windows-2024.08.31",
+                "_type": "_doc",
+                "_id": "9i1CDJEBDqnoGKN7gmhx",
+                "_score": 1.0,
+                "_source": {
+                    "source": {},
+                    "vendorERId": 7357267,
+                    "tags": [
+                        "beats_input_codec_plain_applied",
+                        "_grokparsefailure",
+                        "src_public",
+                        "_geoip_lookup_failure",
+                        "_jdbcstreamingdefaultsused"
+                    ],
+                    "destUserId": "S-1-5-18",
+                    "network": {
+                        "community_id": "1:UCr8+2cP3XVH1DCMLqtl4//PaFQ=",
+                        "type": "ipv6"
+                    },
+                    "eventTime": "2024-08-01T04:45:31.892Z",
+                    "vendorEId": "3",
+                    "vendorEName": "Network connection detected (rule: NetworkConnect)",
+                    "log": {},
+                    "srcPort": 32316,
+                    "deviceHost": "adserver",
+                    "srcServiceAccount": "false",
+                    "processId": 2980,
+                    "destination": {},
+                    "rule": {},
+                    "destUser": "SYSTEM",
+                    "deviceIpv6": "fe80::713d:2b12:ed89:2052",
+                    "ecs": {
+                        "version": "1.12.0"
+                    },
+                    "destPort": 9389,
+                    "destDomain": "-",
+                    "srcioc": [
+                        {}
+                    ],
+                    "destProcess": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                    "vendorESubCat": "Microsoft-Windows-Sysmon",
+                    "deviceProduct": "Windows",
+                    "destioc": [
+                        {}
+                    ],
+                    "customerId": "zs",
+                    "assetInfo": [
+                        {
+                            "assetHostname": "WSADServer01",
+                            "assetZone": "Private",
+                            "assetOS": "Windows Server 2016",
+                            "assetLocation": "Mumbai",
+                            "assetMac": "00-0c-29-27-08-68",
+                            "assetCriticality": "High",
+                            "assetVlan": "private",
+                            "assetPort1": "636",
+                            "assetOwner": "IT Team",
+                            "assetType": "Server",
+                            "assetPort": "3389",
+                            "assetPort2": null,
+                            "assetIP": "192.168.1.221",
+                            "assetRole": "ADServer"
+                        }
+                    ],
+                    "destProcessId": 96444,
+                    "message": "Network connection detected:\nRuleName: technique_id=T1059.001,technique_name=PowerShell\nUtcTime: 2024-08-01 04:45:38.434\nProcessGuid: {B906E501-12E7-66AB-6959-000000007000}\nProcessId: 96444\nImage: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\nUser: NT AUTHORITY\\SYSTEM\nProtocol: tcp\nInitiated: true\nSourceIsIpv6: true\nSourceIp: 0:0:0:0:0:0:0:1\nSourceHostname: -\nSourcePort: 32316\nSourcePortName: -\nDestinationIsIpv6: true\nDestinationIp: 0:0:0:0:0:0:0:1\nDestinationHostname: -\nDestinationPort: 9389\nDestinationPortName: -",
+                    "srcDomain": "-",
+                    "destIp": "0:0:0:0:0:0:0:1",
+                    "cs6Label": "ProcessGuid",
+                    "cs6": "{B906E501-12E7-66AB-6959-000000007000}",
+                    "deviceLocation": "Mumbai",
+                    "destinfo": [
+                        {}
+                    ],
+                    "srcIp": "0:0:0:0:0:0:0:1",
+                    "deviceName": "adserver.zeronsec.loc",
+                    "@timestamp": "2024-08-01T04:45:38.434Z",
+                    "transProtocol": "tcp",
+                    "deviceOs": "Windows Server 2016 Standard",
+                    "deviceModule": "Microsoft-Windows-Sysmon/Operational",
+                    "related": {
+                        "user": "SYSTEM",
+                        "ip": "0:0:0:0:0:0:0:1"
+                    },
+                    "technique_name": "PowerShell",
+                    "@version": "1",
+                    "deviceId": "b906e501-b8f3-44a5-803b-8269ea45be70",
+                    "protocol": "-",
+                    "eventTask": "Network connection detected (rule: NetworkConnect)",
+                    "deviceOpCode": "Info",
+                    "destServiceAccount": "false",
+                    "deviceIp": "192.168.1.221",
+                    "deviceMac": "00:0c:29:bb:fc:02",
+                    "eventDirection": "egress",
+                    "technique_id": "T1059.001",
+                    "vendorECat": [
+                        "network"
+                    ],
+                    "logLevel": "information",
+                    "destFile": "powershell.exe",
+                    "vendorEType": [
+                        "connection",
+                        "start",
+                        "protocol"
+                    ],
+                    "deviceVendor": "Microsoft",
+                    "srcinfo": [
+                        {}
+                    ]
+                }
+            },
+            {
+                "_index": "rule_ms_windows-2024.08.31",
+                "_type": "_doc",
+                "_id": "ld9CDJEBGodUsTw9gVGp",
+                "_score": 1.0,
+                "_source": {
+                    "source": {},
+                    "vendorERId": 7357265,
+                    "tags": [
+                        "beats_input_codec_plain_applied",
+                        "_grokparsefailure",
+                        "src_public",
+                        "_geoip_lookup_failure",
+                        "_jdbcstreamingdefaultsused"
+                    ],
+                    "destUserId": "S-1-5-18",
+                    "network": {
+                        "community_id": "1:6sdGFUSQaKOvC0JgZnVSAGXrw18=",
+                        "type": "ipv6"
+                    },
+                    "eventTime": "2024-08-01T04:45:31.892Z",
+                    "vendorEId": "3",
+                    "vendorEName": "Network connection detected (rule: NetworkConnect)",
+                    "log": {},
+                    "srcPort": 32313,
+                    "deviceHost": "adserver",
+                    "srcServiceAccount": "false",
+                    "processId": 2980,
+                    "rule": {},
+                    "destination": {},
+                    "destUser": "SYSTEM",
+                    "deviceIpv6": "fe80::713d:2b12:ed89:2052",
+                    "ecs": {
+                        "version": "1.12.0"
+                    },
+                    "destPort": 9389,
+                    "destDomain": "-",
+                    "srcioc": [
+                        {}
+                    ],
+                    "destProcess": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                    "vendorESubCat": "Microsoft-Windows-Sysmon",
+                    "deviceProduct": "Windows",
+                    "destioc": [
+                        {}
+                    ],
+                    "customerId": "zs",
+                    "assetInfo": [
+                        {
+                            "assetHostname": "WSADServer01",
+                            "assetZone": "Private",
+                            "assetOS": "Windows Server 2016",
+                            "assetLocation": "Mumbai",
+                            "assetMac": "00-0c-29-27-08-68",
+                            "assetCriticality": "High",
+                            "assetVlan": "private",
+                            "assetPort1": "636",
+                            "assetOwner": "IT Team",
+                            "assetType": "Server",
+                            "assetPort": "3389",
+                            "assetPort2": null,
+                            "assetIP": "192.168.1.221",
+                            "assetRole": "ADServer"
+                        }
+                    ],
+                    "destProcessId": 96444,
+                    "message": "Network connection detected:\nRuleName: technique_id=T1059.001,technique_name=PowerShell\nUtcTime: 2024-08-01 04:45:38.168\nProcessGuid: {B906E501-12E7-66AB-6959-000000007000}\nProcessId: 96444\nImage: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\nUser: NT AUTHORITY\\SYSTEM\nProtocol: tcp\nInitiated: true\nSourceIsIpv6: true\nSourceIp: 0:0:0:0:0:0:0:1\nSourceHostname: -\nSourcePort: 32313\nSourcePortName: -\nDestinationIsIpv6: true\nDestinationIp: 0:0:0:0:0:0:0:1\nDestinationHostname: -\nDestinationPort: 9389\nDestinationPortName: -",
+                    "srcDomain": "-",
+                    "destIp": "0:0:0:0:0:0:0:1",
+                    "cs6Label": "ProcessGuid",
+                    "cs6": "{B906E501-12E7-66AB-6959-000000007000}",
+                    "deviceLocation": "Mumbai",
+                    "destinfo": [
+                        {}
+                    ],
+                    "srcIp": "0:0:0:0:0:0:0:1",
+                    "deviceName": "adserver.zeronsec.loc",
+                    "@timestamp": "2024-08-01T04:45:38.168Z",
+                    "transProtocol": "tcp",
+                    "deviceOs": "Windows Server 2016 Standard",
+                    "deviceModule": "Microsoft-Windows-Sysmon/Operational",
+                    "related": {
+                        "user": "SYSTEM",
+                        "ip": "0:0:0:0:0:0:0:1"
+                    },
+                    "technique_name": "PowerShell",
+                    "@version": "1",
+                    "deviceId": "b906e501-b8f3-44a5-803b-8269ea45be70",
+                    "protocol": "-",
+                    "eventTask": "Network connection detected (rule: NetworkConnect)",
+                    "deviceOpCode": "Info",
+                    "destServiceAccount": "false",
+                    "deviceIp": "192.168.1.221",
+                    "deviceMac": "00:0c:29:bb:fc:02",
+                    "eventDirection": "egress",
+                    "technique_id": "T1059.001",
+                    "vendorECat": [
+                        "network"
+                    ],
+                    "logLevel": "information",
+                    "destFile": "powershell.exe",
+                    "vendorEType": [
+                        "connection",
+                        "start",
+                        "protocol"
+                    ],
+                    "deviceVendor": "Microsoft",
+                    "srcinfo": [
+                        {}
+                    ]
+                }
+            },
+            {
+                "_index": "rule_ms_windows-2024.08.31",
+                "_type": "_doc",
+                "_id": "GkFCDJEBMN6O3uGrgfrT",
+                "_score": 1.0,
+                "_source": {
+                    "source": {},
+                    "vendorERId": 7357264,
+                    "tags": [
+                        "beats_input_codec_plain_applied",
+                        "_grokparsefailure",
+                        "src_public",
+                        "_geoip_lookup_failure",
+                        "_jdbcstreamingdefaultsused"
+                    ],
+                    "destUserId": "S-1-5-18",
+                    "network": {
+                        "community_id": "1:2nyFqOzzGDKYD3ZUf/09SORgOhs=",
+                        "type": "ipv6"
+                    },
+                    "eventTime": "2024-08-01T04:45:31.892Z",
+                    "vendorEId": "3",
+                    "vendorEName": "Network connection detected (rule: NetworkConnect)",
+                    "log": {},
+                    "srcPort": 32312,
+                    "deviceHost": "adserver",
+                    "srcServiceAccount": "false",
+                    "processId": 2980,
+                    "rule": {},
+                    "destination": {},
+                    "destUser": "SYSTEM",
+                    "deviceIpv6": "fe80::713d:2b12:ed89:2052",
+                    "ecs": {
+                        "version": "1.12.0"
+                    },
+                    "destPort": 9389,
+                    "destDomain": "-",
+                    "srcioc": [
+                        {}
+                    ],
+                    "destProcess": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                    "vendorESubCat": "Microsoft-Windows-Sysmon",
+                    "deviceProduct": "Windows",
+                    "destioc": [
+                        {}
+                    ],
+                    "customerId": "zs",
+                    "assetInfo": [
+                        {
+                            "assetHostname": "WSADServer01",
+                            "assetZone": "Private",
+                            "assetOS": "Windows Server 2016",
+                            "assetLocation": "Mumbai",
+                            "assetMac": "00-0c-29-27-08-68",
+                            "assetCriticality": "High",
+                            "assetVlan": "private",
+                            "assetPort1": "636",
+                            "assetOwner": "IT Team",
+                            "assetType": "Server",
+                            "assetPort": "3389",
+                            "assetPort2": null,
+                            "assetIP": "192.168.1.221",
+                            "assetRole": "ADServer"
+                        }
+                    ],
+                    "destProcessId": 96444,
+                    "message": "Network connection detected:\nRuleName: technique_id=T1059.001,technique_name=PowerShell\nUtcTime: 2024-08-01 04:45:38.127\nProcessGuid: {B906E501-12E7-66AB-6959-000000007000}\nProcessId: 96444\nImage: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\nUser: NT AUTHORITY\\SYSTEM\nProtocol: tcp\nInitiated: true\nSourceIsIpv6: true\nSourceIp: 0:0:0:0:0:0:0:1\nSourceHostname: -\nSourcePort: 32312\nSourcePortName: -\nDestinationIsIpv6: true\nDestinationIp: 0:0:0:0:0:0:0:1\nDestinationHostname: -\nDestinationPort: 9389\nDestinationPortName: -",
+                    "srcDomain": "-",
+                    "destIp": "0:0:0:0:0:0:0:1",
+                    "cs6Label": "ProcessGuid",
+                    "cs6": "{B906E501-12E7-66AB-6959-000000007000}",
+                    "deviceLocation": "Mumbai",
+                    "destinfo": [
+                        {}
+                    ],
+                    "srcIp": "0:0:0:0:0:0:0:1",
+                    "deviceName": "adserver.zeronsec.loc",
+                    "@timestamp": "2024-08-01T04:45:38.127Z",
+                    "transProtocol": "tcp",
+                    "deviceOs": "Windows Server 2016 Standard",
+                    "deviceModule": "Microsoft-Windows-Sysmon/Operational",
+                    "related": {
+                        "user": "SYSTEM",
+                        "ip": "0:0:0:0:0:0:0:1"
+                    },
+                    "technique_name": "PowerShell",
+                    "@version": "1",
+                    "deviceId": "b906e501-b8f3-44a5-803b-8269ea45be70",
+                    "protocol": "-",
+                    "eventTask": "Network connection detected (rule: NetworkConnect)",
+                    "deviceOpCode": "Info",
+                    "destServiceAccount": "false",
+                    "deviceIp": "192.168.1.221",
+                    "deviceMac": "00:0c:29:bb:fc:02",
+                    "eventDirection": "egress",
+                    "technique_id": "T1059.001",
+                    "vendorECat": [
+                        "network"
+                    ],
+                    "logLevel": "information",
+                    "destFile": "powershell.exe",
+                    "vendorEType": [
+                        "connection",
+                        "start",
+                        "protocol"
+                    ],
+                    "deviceVendor": "Microsoft",
+                    "srcinfo": [
+                        {}
+                    ]
+                }
+            },
+            {
+                "_index": "rule_ms_windows-2024.08.31",
+                "_type": "_doc",
+                "_id": "lN9CDJEBGodUsTw9gVGo",
+                "_score": 1.0,
+                "_source": {
+                    "source": {},
+                    "vendorERId": 7357266,
+                    "tags": [
+                        "beats_input_codec_plain_applied",
+                        "_grokparsefailure",
+                        "src_public",
+                        "_geoip_lookup_failure",
+                        "_jdbcstreamingdefaultsused"
+                    ],
+                    "destUserId": "S-1-5-18",
+                    "network": {
+                        "community_id": "1:EM/av1d4fsoJhEwkchGGd4QC05Q=",
+                        "type": "ipv6"
+                    },
+                    "eventTime": "2024-08-01T04:45:31.892Z",
+                    "vendorEId": "3",
+                    "vendorEName": "Network connection detected (rule: NetworkConnect)",
+                    "log": {},
+                    "srcPort": 32315,
+                    "deviceHost": "adserver",
+                    "srcServiceAccount": "false",
+                    "processId": 2980,
+                    "destination": {},
+                    "rule": {},
+                    "destUser": "SYSTEM",
+                    "deviceIpv6": "fe80::713d:2b12:ed89:2052",
+                    "ecs": {
+                        "version": "1.12.0"
+                    },
+                    "destPort": 9389,
+                    "destDomain": "-",
+                    "srcioc": [
+                        {}
+                    ],
+                    "destProcess": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                    "vendorESubCat": "Microsoft-Windows-Sysmon",
+                    "deviceProduct": "Windows",
+                    "destioc": [
+                        {}
+                    ],
+                    "customerId": "zs",
+                    "assetInfo": [
+                        {
+                            "assetHostname": "WSADServer01",
+                            "assetZone": "Private",
+                            "assetOS": "Windows Server 2016",
+                            "assetLocation": "Mumbai",
+                            "assetMac": "00-0c-29-27-08-68",
+                            "assetCriticality": "High",
+                            "assetVlan": "private",
+                            "assetPort1": "636",
+                            "assetOwner": "IT Team",
+                            "assetType": "Server",
+                            "assetPort": "3389",
+                            "assetPort2": null,
+                            "assetIP": "192.168.1.221",
+                            "assetRole": "ADServer"
+                        }
+                    ],
+                    "destProcessId": 96444,
+                    "message": "Network connection detected:\nRuleName: technique_id=T1059.001,technique_name=PowerShell\nUtcTime: 2024-08-01 04:45:38.423\nProcessGuid: {B906E501-12E7-66AB-6959-000000007000}\nProcessId: 96444\nImage: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\nUser: NT AUTHORITY\\SYSTEM\nProtocol: tcp\nInitiated: true\nSourceIsIpv6: true\nSourceIp: 0:0:0:0:0:0:0:1\nSourceHostname: -\nSourcePort: 32315\nSourcePortName: -\nDestinationIsIpv6: true\nDestinationIp: 0:0:0:0:0:0:0:1\nDestinationHostname: -\nDestinationPort: 9389\nDestinationPortName: -",
+                    "srcDomain": "-",
+                    "destIp": "0:0:0:0:0:0:0:1",
+                    "cs6Label": "ProcessGuid",
+                    "cs6": "{B906E501-12E7-66AB-6959-000000007000}",
+                    "deviceLocation": "Mumbai",
+                    "destinfo": [
+                        {}
+                    ],
+                    "srcIp": "0:0:0:0:0:0:0:1",
+                    "deviceName": "adserver.zeronsec.loc",
+                    "@timestamp": "2024-08-01T04:45:38.423Z",
+                    "transProtocol": "tcp",
+                    "deviceOs": "Windows Server 2016 Standard",
+                    "deviceModule": "Microsoft-Windows-Sysmon/Operational",
+                    "related": {
+                        "user": "SYSTEM",
+                        "ip": "0:0:0:0:0:0:0:1"
+                    },
+                    "technique_name": "PowerShell",
+                    "@version": "1",
+                    "deviceId": "b906e501-b8f3-44a5-803b-8269ea45be70",
+                    "protocol": "-",
+                    "eventTask": "Network connection detected (rule: NetworkConnect)",
+                    "deviceOpCode": "Info",
+                    "destServiceAccount": "false",
+                    "deviceIp": "192.168.1.221",
+                    "deviceMac": "00:0c:29:bb:fc:02",
+                    "eventDirection": "egress",
+                    "technique_id": "T1059.001",
+                    "vendorECat": [
+                        "network"
+                    ],
+                    "logLevel": "information",
+                    "destFile": "powershell.exe",
+                    "vendorEType": [
+                        "connection",
+                        "start",
+                        "protocol"
+                    ],
+                    "deviceVendor": "Microsoft",
+                    "srcinfo": [
+                        {}
+                    ]
+                }
+            }
+        ]
+    }
+}{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 0,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": []
+    }
+}{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 0,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": []
+    }
+}{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 0,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": []
+    }
+}{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 0,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": []
+    }
+}{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 0,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": []
+    }
+}{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 0,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": []
+    }
+}{
+    "rule_ms_windows-2024.08.31": {
+        "mappings": {
+            "properties": {
+                "@timestamp": {
+                    "type": "date"
+                },
+                "@version": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "ObjectName": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "ObjectServer": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "ObjectType": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "accessMask": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "accessMaskCode": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "accessName": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "accessNameCode": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "accessReason": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "agent": {
+                    "properties": {
+                        "ephemeral_id": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "hostname": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "id": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "name": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "type": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "version": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "assetInfo": {
+                    "properties": {
+                        "assetCriticality": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetHostname": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetIP": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetLocation": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetMac": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetOS": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetOwner": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetPort": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetPort1": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetRole": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetType": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetVlan": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetZone": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "cd1": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cd1Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cd2Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cn1": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cn1Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cn2": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cn2Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cn3": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cn3Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cn4": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cn4Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cn5": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cn5Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cn6": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cn6Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs1": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs10": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs10Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs11": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs11Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs1Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs2": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs2Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs3": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs3Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs4": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs4Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs5": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs5Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs6": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs6Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs7": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs7Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs8": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs8Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs9": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "cs9Label": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "customerId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destDomain": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destFile": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destFileDirectory": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destFileExtension": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destFileHashMd5": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destFileHashSha1": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destFileHashSha256": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destFileName": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destFilePath": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destHashMd5ioc": {
+                    "type": "object"
+                },
+                "destHashSha256ioc": {
+                    "type": "object"
+                },
+                "destIp": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destOriginalFile": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destPort": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destProcess": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destProcessId": {
+                    "type": "long"
+                },
+                "destService": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destServiceAccount": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destUser": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destUserId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destVendor": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "destination": {
+                    "type": "object"
+                },
+                "destinfo": {
+                    "properties": {
+                        "assetCriticality": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetHostname": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetIP": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetLocation": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetMac": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetOS": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetOwner": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetPort": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetPort1": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetRole": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetType": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetVlan": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetZone": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "destioc": {
+                    "type": "object"
+                },
+                "deviceAction": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceAudit": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceHost": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceIp": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceIpv6": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceLocation": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceMac": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceModule": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceName": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceOpCode": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceOs": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceProcess": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceProduct": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceVendor": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "dns": {
+                    "properties": {
+                        "answers": {
+                            "properties": {
+                                "data": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "type": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "question": {
+                            "type": "object"
+                        },
+                        "resolved_ip": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "ecs": {
+                    "properties": {
+                        "version": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "event": {
+                    "properties": {
+                        "kind": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "provider": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "sequence": {
+                            "type": "long"
+                        }
+                    }
+                },
+                "eventDirection": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "eventTask": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "eventTime": {
+                    "type": "date"
+                },
+                "fileId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "group": {
+                    "properties": {
+                        "domain": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "id": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "name": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "hash": {
+                    "properties": {
+                        "imphash": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "sha1": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "host": {
+                    "properties": {
+                        "architecture": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "ip": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "mac": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "os": {
+                            "properties": {
+                                "build": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "family": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "kernel": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "platform": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "type": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "version": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "layerName": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "log": {
+                    "type": "object"
+                },
+                "logLevel": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "message": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "network": {
+                    "properties": {
+                        "community_id": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "type": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "packetDirection": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "powershell": {
+                    "properties": {
+                        "command": {
+                            "properties": {
+                                "invocation_details": {
+                                    "properties": {
+                                        "name": {
+                                            "type": "text",
+                                            "fields": {
+                                                "keyword": {
+                                                    "type": "keyword",
+                                                    "ignore_above": 256
+                                                }
+                                            }
+                                        },
+                                        "related_command": {
+                                            "type": "text",
+                                            "fields": {
+                                                "keyword": {
+                                                    "type": "keyword",
+                                                    "ignore_above": 256
+                                                }
+                                            }
+                                        },
+                                        "type": {
+                                            "type": "text",
+                                            "fields": {
+                                                "keyword": {
+                                                    "type": "keyword",
+                                                    "ignore_above": 256
+                                                }
+                                            }
+                                        },
+                                        "value": {
+                                            "type": "text",
+                                            "fields": {
+                                                "keyword": {
+                                                    "type": "keyword",
+                                                    "ignore_above": 256
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "name": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "type": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "value": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "engine": {
+                            "properties": {
+                                "new_state": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "previous_state": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "version": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "file": {
+                            "properties": {
+                                "script_block_id": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "script_block_text": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "id": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "pipeline_id": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "process": {
+                            "properties": {
+                                "executable_version": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "provider": {
+                            "properties": {
+                                "name": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "new_state": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "runspace_id": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "sequence": {
+                            "type": "long"
+                        },
+                        "total": {
+                            "type": "long"
+                        }
+                    }
+                },
+                "privilegeList": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "process": {
+                    "properties": {
+                        "args": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "args_count": {
+                            "type": "long"
+                        },
+                        "command_line": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "entity_id": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "title": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "processId": {
+                    "type": "long"
+                },
+                "protocol": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "registry": {
+                    "properties": {
+                        "data": {
+                            "type": "object"
+                        }
+                    }
+                },
+                "related": {
+                    "properties": {
+                        "hash": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "ip": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "user": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "rule": {
+                    "type": "object"
+                },
+                "service": {
+                    "properties": {
+                        "type": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "source": {
+                    "type": "object"
+                },
+                "srcCCode": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcCity": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcCountry": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcDomain": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcFile": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcIp": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcLatitude": {
+                    "type": "float"
+                },
+                "srcLongitude": {
+                    "type": "float"
+                },
+                "srcPort": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcProcess": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcProcessId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcServiceAccount": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcUser": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcUserDomain": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcUserId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcUserPrivileges": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "srcinfo": {
+                    "properties": {
+                        "assetCriticality": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetHostname": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetIP": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetLocation": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetMac": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetOS": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetOwner": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetPort": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetPort1": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetRole": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetType": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetVlan": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "assetZone": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "srcioc": {
+                    "type": "object"
+                },
+                "sysmon": {
+                    "properties": {
+                        "dns": {
+                            "type": "object"
+                        }
+                    }
+                },
+                "system": {
+                    "properties": {
+                        "audit": {
+                            "properties": {
+                                "host": {
+                                    "properties": {
+                                        "architecture": {
+                                            "type": "text",
+                                            "fields": {
+                                                "keyword": {
+                                                    "type": "keyword",
+                                                    "ignore_above": 256
+                                                }
+                                            }
+                                        },
+                                        "boottime": {
+                                            "type": "date"
+                                        },
+                                        "hostname": {
+                                            "type": "text",
+                                            "fields": {
+                                                "keyword": {
+                                                    "type": "keyword",
+                                                    "ignore_above": 256
+                                                }
+                                            }
+                                        },
+                                        "id": {
+                                            "type": "text",
+                                            "fields": {
+                                                "keyword": {
+                                                    "type": "keyword",
+                                                    "ignore_above": 256
+                                                }
+                                            }
+                                        },
+                                        "ip": {
+                                            "type": "text",
+                                            "fields": {
+                                                "keyword": {
+                                                    "type": "keyword",
+                                                    "ignore_above": 256
+                                                }
+                                            }
+                                        },
+                                        "mac": {
+                                            "type": "text",
+                                            "fields": {
+                                                "keyword": {
+                                                    "type": "keyword",
+                                                    "ignore_above": 256
+                                                }
+                                            }
+                                        },
+                                        "os": {
+                                            "properties": {
+                                                "family": {
+                                                    "type": "text",
+                                                    "fields": {
+                                                        "keyword": {
+                                                            "type": "keyword",
+                                                            "ignore_above": 256
+                                                        }
+                                                    }
+                                                },
+                                                "kernel": {
+                                                    "type": "text",
+                                                    "fields": {
+                                                        "keyword": {
+                                                            "type": "keyword",
+                                                            "ignore_above": 256
+                                                        }
+                                                    }
+                                                },
+                                                "name": {
+                                                    "type": "text",
+                                                    "fields": {
+                                                        "keyword": {
+                                                            "type": "keyword",
+                                                            "ignore_above": 256
+                                                        }
+                                                    }
+                                                },
+                                                "platform": {
+                                                    "type": "text",
+                                                    "fields": {
+                                                        "keyword": {
+                                                            "type": "keyword",
+                                                            "ignore_above": 256
+                                                        }
+                                                    }
+                                                },
+                                                "version": {
+                                                    "type": "text",
+                                                    "fields": {
+                                                        "keyword": {
+                                                            "type": "keyword",
+                                                            "ignore_above": 256
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "timezone": {
+                                            "properties": {
+                                                "name": {
+                                                    "type": "text",
+                                                    "fields": {
+                                                        "keyword": {
+                                                            "type": "keyword",
+                                                            "ignore_above": 256
+                                                        }
+                                                    }
+                                                },
+                                                "offset": {
+                                                    "properties": {
+                                                        "sec": {
+                                                            "type": "long"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "uptime": {
+                                            "type": "long"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "tags": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "technique": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "technique_id": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "technique_name": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "transProtocol": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "user": {
+                    "properties": {
+                        "domain": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "id": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "name": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "target": {
+                            "properties": {
+                                "domain": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "id": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "name": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "username1": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "vendorECat": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "vendorEId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "vendorEName": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "vendorEOutcome": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "vendorERId": {
+                    "type": "long"
+                },
+                "vendorESubCat": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "vendorEType": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "winlog": {
+                    "properties": {
+                        "activity_id": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "api": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "computer_name": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "event_data": {
+                            "properties": {
+                                "AlgorithmName": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "Application": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "Binary": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "CallerProcessId": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "CallerProcessName": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "ClientCreationTime": {
+                                    "type": "date"
+                                },
+                                "ClientProcessId": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "CountOfCredentialsReturned": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "KeyFilePath": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "KeyName": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "KeyType": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "Operation": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "ProcessCreationTime": {
+                                    "type": "date"
+                                },
+                                "Profiles": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "ProviderName": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "ReadOperation": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "ReturnCode": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "SubjectDomainName": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "SubjectLogonId": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "SubjectUserName": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "SubjectUserSid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "TargetDomainName": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "TargetName": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "TargetSid": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "TargetUserName": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "Type": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "param1": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "param2": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                },
+                                "param5": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "event_id": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "logon": {
+                            "properties": {
+                                "id": {
+                                    "type": "text",
+                                    "fields": {
+                                        "keyword": {
+                                            "type": "keyword",
+                                            "ignore_above": 256
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "process": {
+                            "properties": {
+                                "thread": {
+                                    "properties": {
+                                        "id": {
+                                            "type": "long"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "provider_guid": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "version": {
+                            "type": "long"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
