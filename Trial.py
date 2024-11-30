@@ -53,6 +53,12 @@ query = {
                         "size" : 10
                         }
                     } ,
+                "deviceHost" : {
+                                    "terms" : {
+                                        "field" : "deviceHost.keyword" ,
+                                        "size" : 10
+                                        }
+                                    } ,
                 "first_attempt" : {
                     "top_hits" : {
                         "sort" : [
@@ -97,6 +103,8 @@ try :
     # Parse the response
     data = response.json()
     print(data)
+    # with open( "querydata.json" , "a" ) as file :
+    #     json.dump( data , file , indent = 4 )
     # Process and print aggregations
     if 'aggregations' in data and 'failed_logins' in data [ 'aggregations' ] :
         failed_logins = data [ 'aggregations' ] [ 'failed_logins' ] [ 'buckets' ]
@@ -117,6 +125,11 @@ try :
                 print( "Failure Reasons:" )
                 for reason in bucket [ 'failure_reasons' ] [ 'buckets' ] :
                     print( f"- {reason [ 'key' ]} (Count: {reason [ 'doc_count' ]})" )
+
+            if 'deviceHost' in bucket :
+                print( "deviceHost:" )
+                for Machine in bucket [ 'deviceHost' ] [ 'buckets' ] :
+                    print( f"- {Machine [ 'key' ]} (Count: {Machine [ 'doc_count' ]})" )
 
             # First and Last Attempt Timestamps
             if 'first_attempt' in bucket and bucket [ 'first_attempt' ] [ 'hits' ] [ 'total' ] [ 'value' ] > 0 :
