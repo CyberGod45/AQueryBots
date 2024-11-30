@@ -3,7 +3,7 @@ from requests.auth import HTTPBasicAuth
 import json
 
 # Elasticsearch connection details
-url = 'http://192.168.1.141:9200/rule_ms_windows-2024.09.39/_search'
+url = 'http://192.168.1.141:9200/rule_ms_windows*/_search'
 username = 'elastic'
 password = 'Ztp4ssw0rd@2019'
 
@@ -24,6 +24,23 @@ query = {
                             "gte" : "now-90d/d",
                             "lte" : "now"
                             }
+                        }
+                    }
+                ],
+
+            "must_not" : [
+                {
+                    "wildcard" : {
+                        "destUser.keyword" : "*$"
+                        }
+                    } ,
+                {
+                    "terms" : {
+                        "destUser.keyword" : [
+                            "NETWORK SERVICE" ,
+                            "LOCAL SERVICE" ,
+                            "SYSTEM"
+                            ]
                         }
                     }
                 ]
@@ -59,6 +76,7 @@ query = {
                                         "size" : 10
                                         }
                                     } ,
+
                 "first_attempt" : {
                     "top_hits" : {
                         "sort" : [
